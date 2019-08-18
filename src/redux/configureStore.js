@@ -1,12 +1,8 @@
-import { createStore } from 'redux';
+import { createStore, applyMiddleware } from 'redux';
 
-const initalState = {
-    recipes: [],
-    ingredients: []
-}
+import rootReducer from './modules/rootReducer';
+import middleware from './middleware';
 
-const reducer = (state, action) => state;
-
-const store = createStore(reducer, initalState);
+const store = createStore(rootReducer, applyMiddleware(...middleware));
 
 export default store;

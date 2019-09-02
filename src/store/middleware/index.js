@@ -1,7 +1,7 @@
 import measureMiddleware from './measureMiddleware';
 import logMiddleware from './logMiddleware';
 
-export default {
+export default [
     logMiddleware,
     measureMiddleware  
-};
+];

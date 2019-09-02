@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-flow": "^7.0.0",
     "flow-bin": "^0.105.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
